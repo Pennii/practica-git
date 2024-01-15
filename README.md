@@ -92,3 +92,7 @@ Al hacer el commit unicamente nos queda hacer el push
 Lo primero que haremos es establecer al profesor como colaborador del proyecto.
 
 ![colaborador](images/documentacion/colaborador.png)
+
+Para subir la pagina utilizaremos el directorio raiz del repositorio
+
+![](images/documentacion/directrio_pages.png)
