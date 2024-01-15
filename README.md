@@ -16,7 +16,65 @@ Initialized empty Git repository in C:/Users/maniana/Desktop/practica-git/.git/
 
 Una vez creado el mismo podremos empezar a realizar los respectivos commit que necesitemos. 
 
+```
+maniana@DAMDAW1-06 MINGW64 ~/desktop/practica-git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        images/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+maniana@DAMDAW1-06 MINGW64 ~/desktop/practica-git (master)
+$ git add .
+```
+Empezaremos por cargar el archivo **Index.html**, que aun esta vacio, la carpeta que utilizaremos para las imagenes, y el propio archivo **README** utilizando el comando *$git add .*, podriamos escribir uno por uno el nombre de los archivos a cargar, o podemos escribir un "." para cargar todos los archivos nuevos o modificados.
+Siempre que se quiera se puede utilizar el comando *$git status* para vizualizar los cambios en los archivos
+
+```
+maniana@DAMDAW1-06 MINGW64 ~/desktop/practica-git (master)
+$ git commit -m"Creacion de index.html y primeros pasos del proyecto"
+[master (root-commit) c95ceaf] Creacion de index.html y primeros pasos del proyecto
+ 3 files changed, 22 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 images/creacion_repositorio_git.png
+ create mode 100644 index.html
+```
+Con el comando *$git commit -m* todos los archivos cargados seran guardados, esto quiere decir que si necesitamos volver atras en algun punto podremos hacerlo desde uno de estos puntos. con el comando *$git log* y *$git log --oneline* podremos ver cada uno de estos puntos.
+
+```
+maniana@DAMDAW1-06 MINGW64 ~/desktop/practica-git (master)
+$ git log --oneline
+c95ceaf (HEAD -> master) Creacion de index.html y primeros pasos del proyecto
+```
+
 ### Repositorio en Github:
 
 ![Creacion de repositorio en github](images/creacion_repositorio_git.png)
 En github crearemos un repositorio publico, ya que de otra forma, necesitariamos una cuenta de pago para utilizar *Github pages* en un repositorio privado. De igual forma, si es creado como privado, es posible modificarlo para que sea publico.
+
+![Repositorio creado](images/conexion_github.png)
+Una vez creado podremos ver un link de enlace al mismo repositorio, de las dos opciones nosotros elegiremos utilizar el link **HTTPS**, y nos conectaremos a el utilizando el siguiente comando.
+```
+maniana@DAMDAW1-06 MINGW64 ~/desktop/practica-git (master)
+$ git remote add origin https://github.com/Pennii/practica-git.git
+```
+De esta forma ya estaremos conectados al repositorio en Github.
+
+Para poder subir las copias de seguridad a github se utilizara el siguiente comando:
+```
+maniana@DAMDAW1-06 MINGW64 ~/desktop/practica-git (master)
+$ git push origin master
+```
+
+Ya con esto podremos subir las copias de seguridad siempre que queramos.
+
+![interfaz en visual studio](images/interfaz_vs.png)
+
+Visual studio code tambien nos proporciona una herramienta para poder subir nuestros archivos a **Github**. Debemos ir al simbolo de ramas a la izquierda de la pantalla y nos permitira hacer de una manera mas amigable todos los comandos previos.
