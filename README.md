@@ -56,10 +56,10 @@ c95ceaf (HEAD -> master) Creacion de index.html y primeros pasos del proyecto
 
 ### Repositorio en Github:
 
-![Creacion de repositorio en github](images/creacion_repositorio_git.png)
+![Creacion de repositorio en github](images/documentacion/creacion_repositorio_git.png)
 En github crearemos un repositorio publico, ya que de otra forma, necesitariamos una cuenta de pago para utilizar *Github pages* en un repositorio privado. De igual forma, si es creado como privado, es posible modificarlo para que sea publico.
 
-![Repositorio creado](images/conexion_github.png)
+![Repositorio creado](images/documentacion/conexion_github.png)
 Una vez creado podremos ver un link de enlace al mismo repositorio, de las dos opciones nosotros elegiremos utilizar el link **HTTPS**, y nos conectaremos a el utilizando el siguiente comando.
 ```
 maniana@DAMDAW1-06 MINGW64 ~/desktop/practica-git (master)
@@ -75,6 +75,20 @@ $ git push origin master
 
 Ya con esto podremos subir las copias de seguridad siempre que queramos.
 
-![interfaz en visual studio](images/interfaz_vs.png)
+![repositorio actualizado](images/documentacion/repositorio_subido.png)
+
+En Github podremos ver cada commit realizado y en que momento se hizo.
+
+![interfaz en visual studio](images/documentacion/interfaz_vs.png)
 
 Visual studio code tambien nos proporciona una herramienta para poder subir nuestros archivos a **Github**. Debemos ir al simbolo de ramas a la izquierda de la pantalla y nos permitira hacer de una manera mas amigable todos los comandos previos.
+
+Al hacer el commit unicamente nos queda hacer el push
+
+![push visual studio](images/documentacion/push_vs.png)
+
+### Github Pages:
+
+Lo primero que haremos es establecer al profesor como colaborador del proyecto.
+
+![colaborador](images/documentacion/colaborador.png)
