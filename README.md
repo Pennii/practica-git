@@ -80,9 +80,11 @@ Ya con esto podremos subir las copias de seguridad siempre que queramos.
 
 En **Github** podremos ver cada *commit* realizado y en que momento se hizo.
 
-![interfaz en visual studio](images/documentacion/interfaz_vs.png)
+![commits](images/documentacion/commits.png)
 
 Visual studio code tambien nos proporciona una herramienta para poder subir nuestros archivos a **Github**. Debemos ir al simbolo de ramas a la izquierda de la pantalla y nos permitira hacer de una manera mas amigable todos los comandos previos.
+
+![interfaz en visual studio](images/documentacion/interfaz_vs.png)
 
 Al hacer el *commit* unicamente nos queda hacer el *push*
 
