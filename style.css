@@ -1,0 +1,36 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+header{
+    background-image: url(images/fondo.jpg);
+    height: 30%;
+    background-size: 50%;
+    background-repeat: repeat-x;
+    background-position-y: 50%;   
+}
+h1{
+    text-align: center;
+    color: red;
+}
+#enlaces{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+a{
+    font-size: 150%;
+    text-decoration: none;
+    color: red;
+    transition: .5s
+}
+a:hover{
+    transition: .5s;
+    font-size: 175%;
+    color: orange;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px;
+}
