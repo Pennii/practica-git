@@ -61,7 +61,7 @@ c95ceaf (HEAD -> master) Creacion de index.html y primeros pasos del proyecto
 En github crearemos un repositorio publico, ya que de otra forma, necesitariamos una cuenta de pago para utilizar **Github pages** en un repositorio privado. De igual forma, si es creado como privado, es posible modificarlo para que sea publico.
 
 ![Repositorio creado](images/documentacion/conexion_github.png)
-Una vez creado podremos ver un link de enlace al mismo repositorio, de las dos opciones nosotros elegiremos utilizar el link **HTTPS**, y nos conectaremos a el utilizando el siguiente comando.
+Una vez creado podremos ver un enlace al mismo repositorio, de las dos opciones nosotros elegiremos utilizar el link **HTTPS**, y nos conectaremos a el utilizando el siguiente comando.
 ```
 maniana@DAMDAW1-06 MINGW64 ~/desktop/practica-git (master)
 $ git remote add origin https://github.com/Pennii/practica-git.git
@@ -82,8 +82,7 @@ En **Github** podremos ver cada *commit* realizado y en que momento se hizo.
 
 ![commits](images/documentacion/commits.png)
 
-Visual studio code tambien nos proporciona una herramienta para poder subir nuestros archivos a **Github**. Debemos ir al simbolo de ramas a la izquierda de la pantalla y nos permitira hacer de una manera mas amigable todos los comandos previos.
-
+Visual studio code tambien nos proporciona una herramienta para poder subir nuestros archivos a **Github**. Debemos ir al simbolo de ramas a la izquierda de la pantalla y nos permitira hacer de una manera mas amigable todos los comandos previos. Podemos hacer click en el simbolo + de cada elemento para añadirlo individualmente, o hacer click en el simbolo + de la linea *changes* para agregar todos los cambios. Una vez todos los cambios estan listos, se realiza el commit con el mensaje en la parte superior.
 ![interfaz en visual studio](images/documentacion/interfaz_vs.png)
 
 Al hacer el *commit* unicamente nos queda hacer el *push*
