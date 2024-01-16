@@ -1,33 +1,39 @@
-body, html{
+body,
+html {
     height: 100%;
     margin: 0;
     background-color: black;
 }
-header{
+
+header {
     background-image: url(images/fondo.jpg);
     height: 30%;
     background-size: 50%;
     background-repeat: repeat-x;
-    background-position-y: 50%;   
+    background-position-y: 50%;
 }
-h1{
+
+h1 {
     text-align: center;
     color: red;
 }
-#enlaces{
+
+#enlaces {
     display: flex;
     justify-content: space-between;
     margin-left: 5px;
     margin-right: 5px;
-    
+
 }
-a{
+
+a {
     font-size: 150%;
     text-decoration: none;
     color: red;
     transition: .5s
 }
-a:hover{
+
+a:hover {
     transition: .5s;
     font-size: 175%;
     color: orange;
@@ -35,22 +41,26 @@ a:hover{
     border-radius: 5px;
     padding: 2px;
 }
-section{
+
+section {
     width: 80%;
     margin: auto;
     background-color: white;
     transition: 1s;
     border-radius: 10px;
-    
+
 }
-h2{
+
+h2 {
     text-align: center;
 }
-#principal{
+
+#principal {
     background-color: black;
     color: white;
 }
-figure{
+
+figure {
     width: 30%;
     margin-top: 5%;
     display: inline-block;
@@ -58,29 +68,44 @@ figure{
     border-radius: 5px;
     transition: 1s;
 }
-figure:hover{
-    width:  35%;
+
+figure:hover {
+    width: 35%;
     transition: 1s;
     background-color: red;
 }
-img{
+
+img {
     width: 100%;
 }
 
-table{
+table {
     border-collapse: collapse;
     margin: 0;
     background-color: orangered;
+    text-align: center;
 }
-td, th{
+
+td,
+th {
     border: 2px solid black;
 }
-#art_mar{
+
+#art_mar {
     background-color: red;
 }
-#fitness{
+
+#fitness {
     background-color: green;
 }
-#nutricional{
+
+#nutricional {
     background-color: yellow;
+}
+label{
+    width: 30%;
+    display: inline-block;
+}
+input[type=text], input[type=email]{
+    width: 60%;
 }
