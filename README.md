@@ -3,7 +3,7 @@
 ## Alumno: Matias Pennino
 ## Modulo: LMGSI
 ## Instituto: IES Aguadulce 2024
-## Enlace a la pagina web: https://pennii.github.io/practica-git
+## [Enlace a la pagina web aqui](https://pennii.github.io/practica-git)
 
 En este proyecto crearemos una pagina web utilizando **Github pages**, por lo tanto deberemos crear un repositorio en la misma pagina.
 
@@ -89,6 +89,12 @@ Al hacer el *commit* unicamente nos queda hacer el *push*, esto lo haremos hacie
 
 ![push visual studio](images/documentacion/push_vs.png)
 
+Ya solo quedaria ver nuevamente si se ha realizado el *push* correctamente
+
+![repositorio subido](images/documentacion/vs_repositorio_subido.png)
+![commits](images/documentacion/vs_commits.png)
+
+Como se puede ver todo se ha subido correctamente.
 ### Github Pages:
 
 Lo primero que haremos es establecer al profesor como colaborador del proyecto.
