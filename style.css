@@ -1,7 +1,6 @@
 body,
 html {
     height: 100%;
-    margin: 0;
     background-color: black;
 }
 
@@ -48,7 +47,6 @@ section {
     background-color: white;
     transition: 1s;
     border-radius: 10px;
-
 }
 
 h2 {
@@ -89,6 +87,7 @@ table {
 td,
 th {
     border: 2px solid black;
+    width: 20%;
 }
 
 #art_mar {
@@ -102,10 +101,37 @@ th {
 #nutricional {
     background-color: yellow;
 }
+form{
+    margin: 2%;
+}
 label{
     width: 30%;
     display: inline-block;
 }
 input[type=text], input[type=email]{
     width: 60%;
+}
+.checks{
+    width: 15%;
+}
+input[type=checkbox]{
+    width: 5%;
+}
+.contenedor_checks{
+    display: inline;
+    transition: .5s;
+}
+.contenedor_checks:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+#botones{
+    display: flex;
+    justify-content: space-evenly;
 }
