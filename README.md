@@ -85,7 +85,7 @@ En **Github** podremos ver cada *commit* realizado y en que momento se hizo.
 Visual studio code tambien nos proporciona una herramienta para poder subir nuestros archivos a **Github**. Debemos ir al simbolo de ramas a la izquierda de la pantalla y nos permitira hacer de una manera mas amigable todos los comandos previos. Podemos hacer click en el simbolo + de cada elemento para añadirlo individualmente, o hacer click en el simbolo + de la linea *changes* para agregar todos los cambios. Una vez todos los cambios estan listos, se realiza el commit con el mensaje en la parte superior.
 ![interfaz en visual studio](images/documentacion/interfaz_vs.png)
 
-Al hacer el *commit* unicamente nos queda hacer el *push*
+Al hacer el *commit* unicamente nos queda hacer el *push*, esto lo haremos haciendo click en el boton *Sync Changes* que nos indica la cantidad de cambios realizados. La primera vez que hagamos esto, veremos un boton que dira *Publish Branch*
 
 ![push visual studio](images/documentacion/push_vs.png)
 
